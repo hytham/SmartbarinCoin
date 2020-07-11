@@ -1,7 +1,7 @@
 """ This is the main block chain class """
 import hashlib
 
-from Block import Block
+from Blockchain.Block import Block
 
 
 class Blockchain(object):

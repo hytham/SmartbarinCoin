@@ -4,7 +4,7 @@ id: the Id of the block
 hash: the block hash
 prev_hash: the previous block hash
 next_hash: the next block hash
-nonce: the block nonce duering mining
+nonce: the block nonce during mining
 permission: dictionary to tell which role have which permissions
 data: the payload that will be saved in this blok, it can be a transaction or a binary (TBD)
 """

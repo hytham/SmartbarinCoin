@@ -1,6 +1,5 @@
 from unittest import TestCase
 
-from Block import Block
 from Blockchain import Blockchain
 
 

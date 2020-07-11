@@ -1,0 +1,10 @@
+{
+   "p2p": {
+     "seed_peers": ["127.0.0.1"]
+   },
+  "vm": {
+    "imemory_size": 10000,
+    "exmemory_size": 5000,
+    "global_size": 255
+  }
+}

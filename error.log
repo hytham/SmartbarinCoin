@@ -1,0 +1,18 @@
+
+Traceback (most recent call last):
+  File "C:\Repositories\Github\SmartbrainCoin\venv\lib\site-packages\pyp2p\sock.py", line 195, in connect
+    self.s.connect((addr, int(port)))
+socket.timeout: timed out
+ <class 'socket.timeout'> sock.py 195 timed out
+Traceback (most recent call last):
+  File "C:\Repositories\Github\SmartbrainCoin\venv\lib\site-packages\pyp2p\sock.py", line 173, in connect
+    def connect(self, addr, port):
+socket.timeout: timed out
+ <class 'socket.timeout'> sock.py 173 timed out
+Traceback (most recent call last):
+  File "C:\Repositories\Github\SmartbrainCoin\venv\lib\site-packages\pyp2p\net.py", line 481, in bootstrap
+    def bootstrap(self):
+  File "C:\Repositories\Github\SmartbrainCoin\venv\lib\site-packages\pyp2p\rendezvous_client.py", line 68, in server_connect
+    def server_connect(self, sock=None, index=None, servers=None):
+Exception: All rendezvous servers are down.
+ <class 'Exception'> net.py 481 All rendezvous servers are down.
