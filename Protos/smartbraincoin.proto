@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+package smartbraincoin;
+
+message PingRequest {
+  string magictext = 1;
+}
+
+message PingResponse {
+  string magictext = 1;
+  string timestamp = 2;
+}
+
+message EmptyMsg {}
+message StringMsg {
+  string Text = 1;
+}
+
+// The block message that will communicate between nodes
+message BlockMsg {
+
+}
+
+// Am Integer message
+message IntMsg {
+  int32 value = 1;
+}
+
+service Utils {
+  rpc Ping(PingRequest) returns(PingResponse){};
+}
+// The main block handshakes and block operations
+service Block {
+  // Get Last Block Added hash code
+  rpc GetLastBlockHash(EmptyMsg) returns(StringMsg) {}
+
+  rpc AddBlock(BlockMsg) returns(IntMsg) {}
+}
+

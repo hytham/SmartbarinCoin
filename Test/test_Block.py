@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from Blockchain.Block import Block
+from Data.Block import Block
 
 
 class TestBlock(TestCase):
