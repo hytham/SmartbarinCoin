@@ -13,7 +13,3 @@ It is written purly in python with no external library
 * Web-hocks to add to initate a transaction
 
 
-# to generate an gRPC
-`
-python -m grpc.tools.protoc -IProtos --python_out=gRPC --grpc_python_out=gRPC smartbraincoin.proto
-`
